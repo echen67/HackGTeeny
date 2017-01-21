@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
         private RecyclerView.Adapter mAdapter;
         private RecyclerView.LayoutManager mLayoutManager;
 
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +29,17 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new MyAdapter(names);
         mRecyclerView.setAdapter(mAdapter);
 
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+
+        mRecyclerView.setHasFixedSize(true);
+
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+        String[] myDataset = {"hi", "e", "b"};
+        mAdapter = new MyAdapter(myDataset);
+        mRecyclerView.setAdapter(mAdapter);
 
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
