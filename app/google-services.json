@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1098328486388",
+    "firebase_url": "https://test-6ea73.firebaseio.com",
+    "project_id": "test-6ea73",
+    "storage_bucket": "test-6ea73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098328486388:android:d2cf4abc93c5369a",
+        "android_client_info": {
+          "package_name": "com.example.taro.hackgteeny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098328486388-l8603nnkbnpf3nnqjk23vojfkgo7muj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCILOZ1QCzPpg0mTK8fSY0gN0VZft_9umo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
