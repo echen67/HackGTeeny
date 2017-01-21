@@ -9,9 +9,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
-        private RecyclerView mRecyclerView;
-        private RecyclerView.Adapter mAdapter;
-        private RecyclerView.LayoutManager mLayoutManager;
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -20,15 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] names = {"Emily","Bryanna","Roy"};
         setContentView(R.layout.activity_main);
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        mRecyclerView.setHasFixedSize(true);
-        mLayoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(mLayoutManager);
-        mAdapter = new MyAdapter(names);
-        mRecyclerView.setAdapter(mAdapter);
-
 
         mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
@@ -45,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
 
-        myRef.setValue("What it Do world ;o");
+        myRef.setValue("Hello, World!");
     }
 }
