@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "1098328486388",
-    "firebase_url": "https://test-6ea73.firebaseio.com",
-    "project_id": "test-6ea73",
-    "storage_bucket": "test-6ea73.appspot.com"
+    "project_number": "1044779836720",
+    "firebase_url": "https://hackgteeny-5f096.firebaseio.com",
+    "project_id": "hackgteeny-5f096",
+    "storage_bucket": "hackgteeny-5f096.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1098328486388:android:d2cf4abc93c5369a",
+        "mobilesdk_app_id": "1:1044779836720:android:d2cf4abc93c5369a",
         "android_client_info": {
           "package_name": "com.example.taro.hackgteeny"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1098328486388-l8603nnkbnpf3nnqjk23vojfkgo7muj4.apps.googleusercontent.com",
+          "client_id": "1044779836720-dedq6t203fs47iqeib88ikehru41g0c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taro.hackgteeny",
+            "certificate_hash": "C23D7EA0C8C8800E1A1C191F3BB4DB34721884CE"
+          }
+        },
+        {
+          "client_id": "1044779836720-clm1ml1ur53jtf61r6lagu85iajlhrtl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCILOZ1QCzPpg0mTK8fSY0gN0VZft_9umo"
+          "current_key": "AIzaSyBHW67We7UIZWLBChCroZ_jcwPWAGaDAx8"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044779836720-clm1ml1ur53jtf61r6lagu85iajlhrtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
