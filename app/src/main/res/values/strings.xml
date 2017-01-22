@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HackGTeeny</string>
-    <string name="edit_message">Enter a message</string>
+    <string name="app_name">&#187;Talk To Me!&#187;</string>
+    <string name="edit_message">let us chat!</string>
     <string name="button_send">Send</string>
 </resources>

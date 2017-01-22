@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 //mAdapter.add2((String) dataSnapshot.child("title").getValue());
                 mAdapter.add((String) dataSnapshot.child("title").getValue());
+                mLayoutManager.scrollToPosition(mAdapter.getItemCount()-1);
             }
 
             @Override

@@ -26,12 +26,15 @@
         android:layout_weight="0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
         android:hint="@string/edit_message" />
 
     <Button android:id="@+id/buttonid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
+        android:background="#0080FF"
+        android:textColor="#FFFF"
         android:onClick="sendMessage"
         />
 </LinearLayout>
